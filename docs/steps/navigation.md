@@ -6,7 +6,7 @@ Navigate to a specific page in your application.
 
 Select your desired Application and Page from the dropdowns. After that make sure to press the refresh button to generate the URL path:
 
-![Docs Version Dropdown](./img/navigation-refresh-path.png)
+![Navigatio step refresh path button](./img/navigation-refresh-path.png)
 
 :::tip
 
