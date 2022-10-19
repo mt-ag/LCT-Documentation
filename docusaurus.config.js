@@ -37,8 +37,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/mt-ag/LCT-Documentation/blob/main/",
         },
         blog: false,
         theme: {
@@ -55,7 +54,7 @@ const config = {
         title: "Low Code Testing",
         logo: {
           alt: "LCT Logo",
-          src: "img/logo.svg",
+          src: "img/lct-logo.svg",
         },
         items: [
           // {
