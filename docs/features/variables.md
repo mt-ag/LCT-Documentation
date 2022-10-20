@@ -35,7 +35,7 @@ When you click "Run Worksheet" you get the option to manually select a variable 
 
 In automatically executed Test Suites a **random set of variables is used**.
 
-:::danger Variables are not constants
+:::caution Variables are not constants
 
 Variables are randomly selected for each test suite test execution. This means that you should not put things that should not change like login credentials or selectors in there.
 
