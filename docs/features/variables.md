@@ -37,6 +37,10 @@ In automatically executed Test Suites a **random set of variables is used**.
 
 :::danger Variables are not constants
 
-Variables are randomly selected for each test suite test execution. This means that you should not put things that should not change like login credentials in there.
+Variables are randomly selected for each test suite test execution. This means that you should not put things that should not change like login credentials or selectors in there.
 
 :::
+
+## What happens if you mistype a variable name
+
+It just won't get replaced. In your test the literal text like `{{FIRSST_NAME}}` appears. So when you see this you will know that there is a typo.
