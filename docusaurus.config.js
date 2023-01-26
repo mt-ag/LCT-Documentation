@@ -107,20 +107,20 @@ const config = {
             ],
           },
           {
-            title: "LCT by MT AG",
+            title: "LCT by MT",
             items: [
               {
                 label: "MT Website",
-                href: "https://mt-ag.com",
+                href: "https://www.mt-itsolutions.com/",
               },
               {
                 label: "MT APEX Page",
-                href: "https://apex.mt-ag.com",
+                href: "https://apex.mt-itsolutions.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MT AG. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MT. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
