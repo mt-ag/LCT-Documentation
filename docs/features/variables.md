@@ -43,4 +43,4 @@ Variables are randomly selected for each test suite test execution. This means t
 
 ## What happens if you mistype a variable name
 
-It just won't get replaced. In your test the literal text like `{{FIRSST_NAME}}` appears. So when you see this you will know that there is a typo.
+It just won't get replaced. In your test the literal text like `{{FIRST_NAME}}` appears. So when you see this you will know that there is a typo.

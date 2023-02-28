@@ -8,8 +8,8 @@ Assertions have the benifit of being able to fail fast. If an assertion fails, t
 
 We recommend adding an assertion **after every navigation or redirect** to ensure that you are on the expected page.
 
-## Less Flakyness
+## Less Flakiness
 
-Assertions can also help with flakyness. They slow down the test and give the page time to load. This can help with flakyness caused by the page not being fully loaded when the test tries to interact with it.
+Assertions can also help with flakiness. They slow down the test and give the page time to load. This can help with flakiness caused by the page not being fully loaded when the test tries to interact with it.
 
 ## Available Assertions
