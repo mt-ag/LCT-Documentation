@@ -1,6 +1,10 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
-## What it is
+## What is LCT
 
 > "Low Code Testing for Low Code Applications"
 
@@ -9,17 +13,17 @@ LCT is a __frontend testing solution__ for __Oracle APEX Applications__. As Orac
 ## Core Features 
 
 * Easy test creation, __no coding required__
-* __State-of-the-Art Frontend Testing__ through the use of __Playwright__ as test execution engine
-  * Built in measures to reduce __Flakiness__
-  * Multi-Browser Testing
-    * Chromium-based Browsers
-    * Firefox
-    * Webkit (Safari)
-  * Extensive Logs
-* Easy scheduling of test runs through __Test Suites__
-* Email Notifications
 * Tailored to Oracle APEX Applications, easy testing of Oracle APEX Standard Components:
   * Popup LOVs
   * Interactive Report/Grid
   * Modal Dialogs (iframes)
   * and much more
+* __State-of-the-Art Frontend Testing__ through the use of __Playwright__ as test execution engine
+  * Built in measures to reduce __Flakiness__
+  * Multi-Browser Testing
+    * Chromium (Chrome, Edge, etc.)
+    * Firefox
+    * WebKit (Safari)
+  * Extensive debugging capabilities
+* Repetetive scheduling of test runs through [Test Suites](./test-suites.md)
+* E-Mail Notifications

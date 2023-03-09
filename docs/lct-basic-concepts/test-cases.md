@@ -1,11 +1,14 @@
+---
+sidebar_position: 3
+---
+
 # Test Cases {#test-cases}
 
-In LCT, Test Cases map to specific functionalities of an application that you want to test. In the case of the Sample Database Application for example, a Test Case could be adding a customer or placing an order.
+A test case is a specific scenario designed to verify whether a particular aspect of your application is working correctly. In the case of the Sample Database Application, a Test Case could be adding a customer or placing an order.
 
 :::note
 
-Except for BeforeEach- and AfterEach-Cases, Test Cases in LCT are __independent of one another__. We consider it a good practice to isolate Test Cases. This way, no error of one Test Case carries over to another one, making debugging and flakiness discovery in the test design phase easier.
-By using Playwright in the background, we make sure that each test case is run in its own isolated browser context as well.
+Except for [BeforeEach- and AfterEach-Cases](./beforeeach-aftereach-cases.md), Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case and each Test Case starts without any page loaded.
 
 ::: 
 
@@ -33,13 +36,13 @@ If the Worksheet is empty (meaning that it contains no Test Cases), the easiest 
 
 This will trigger the following dialog where 'Empty Case' can be selected:
 
-![Add Case dialog, empty Case highlighted](./../features/img/add_case_dialog_empty_case.png)
+![Add Case dialog, empty Case highlighted](./img/add_case_dialog_empty_case.png)
 
 :::note
 
 If Test Cases already exist within our worksheet, we can trigger the same dialog by clicking the plus-icon next to the 'Cases'-header in the Test Case list section: 
 
-![Trigger add case dialog, section header button](./../features/img/add_case_header_button.png)
+![Trigger add case dialog, section header button](./img/add_case_header_button.png)
 
 ::: 
 
@@ -50,7 +53,7 @@ After selecting 'Empty Case', in the next dialog page several can and have to be
 1. A __name__ that idealy best describes the functionality this case will test. Although it is not mandatory to choose a unique Test Case name, it is recommended.
 2. The __type__ of the Test Case
      * __Standard__ (default)
-     * [BeforeEach/AfterEach](./beforeEach-afterEach-cases.md)   
+     * [BeforeEach/AfterEach](beforeeach-aftereach-cases.md)   
      'Standard'-cases are Test Cases that are executed once in a Worksheet, one after the other.   
      BeforeEach/AfterEach-cases are either executed before or after each case in the current Worksheet. Test Steps that apply to all Test Cases, like steps to perform a login, can be idealy placed inside one of those types.
 3. A __description__. As for Worksheet descriptions, this is an optional field, that serves as a container for information about that Test Case. It is recommended to make use of it because it makes it easier for the whole testing team to know what is will be tested by that in case in more detail.
@@ -68,7 +71,7 @@ To do that, trigger the 'Add Case'-dialog in one of the ways descibed in [Creati
 In the following dialog, first select the Worksheet you want to copy from. The list contains all the Worksheets in this LCT instance.   
 After choosing the Worksheet, a list of the cases in that Worksheet will appear. To select the Test Case(s) to copy, click the row selector for the corresponding Test Case(s). To finalize copying, click the 'Copy'-button. 
 
-![Select Worksheet and Test Cases to copy](./../features/img/add_case_as_copy_dialog.png)
+![Select Worksheet and Test Cases to copy](./img/add_case_as_copy_dialog.png)
 
 ### Duplicate a Test Case {#duplicate-case}
 
