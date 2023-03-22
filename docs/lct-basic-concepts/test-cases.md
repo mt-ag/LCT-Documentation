@@ -8,7 +8,7 @@ A test case is a specific scenario designed to verify whether a particular aspec
 
 :::note
 
-Except for [BeforeEach- and AfterEach-Cases](./beforeeach-aftereach-cases.md), Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case and each Test Case starts without any page loaded.
+Except for [BeforeEach- and AfterEach-Cases](./beforeeach-aftereach-cases.md), Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case. Each Test Case starts without any page loaded.
 
 ::: 
 
