@@ -1,5 +1,14 @@
-## Worksheets
-In LCT, Worksheets map to the application you want to test. If you want to test the Sample Database Application (APEX Productivity App)for Example, you would create a Worksheet for it.
+---
+sidebar_position: 1
+---
+
+# Worksheets
+
+In LCT, Worksheets bundle specific [Test Cases](./test-cases.md) that are executed together. They are the basic building blocks of LCT. You can create a Worksheet for a specific application or for a specific section of an application.
+
+Worksheets are comparable to database packages. A package bundles a set of functions that are related to each other. In the same way, a Worksheet bundles a set of test cases that are related to each other.
+
+## Creating a Worksheet
 
 To create a Worksheet, simply click 'Add Worksheet' on the LCT Home Page:
 
