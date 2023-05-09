@@ -1,4 +1,4 @@
-# Navigation
+# navigation
 
 Navigate to a specific page in your application.
 
@@ -6,11 +6,11 @@ Navigate to a specific page in your application.
 
 Select your desired Application and Page from the dropdowns. After that make sure to press the refresh button to generate the URL path:
 
-![Navigatio step refresh path button](./img/navigation-refresh-path.png)
+![Navigation step refresh path button](./img/navigation-refresh-path.png)
 
 :::tip
 
-We recommend to assert that a navigation was succesfull by adding an assertion. For example add a **seeElement** step after the navigation step and check that a page specific h1 or region header is visible.
+We recommend to assert that a navigation was succesful by adding an assertion. For example add a **seeElement** step after the navigation step and check that a page specific `h1` or region header is visible.
 
 :::
 
