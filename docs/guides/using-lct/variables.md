@@ -10,14 +10,13 @@ Use variables to fill data fields with a wide variety of input values. For examp
 
 ## Creating variables and sets
 
-On any Worksheet you can click the "Worksheet Variables" button to get to the variables editor. 
+On any Worksheet you can click the "Worksheet Variables" button to get to the variables editor.
 
 In there you can at first create variable defintions:
 
 ![List of created worksheet variables](./img/creating_worksheet_variables.png)
 
 When this is done you can switch the tab to "Variable Sets" and add a new set of variables. After naming and saving it you can click on the link "Add Variables to Set".
-
 
 ![Setting values for a specific variable set](./img/set_values_of_variables.png)
 
@@ -33,14 +32,80 @@ In a step in the same worksheet you can use the variables by typing the variable
 
 When you click "Run Worksheet" you get the option to manually select a variable set. If you don't select any a random one will be used.
 
-In automatically executed Test Suites a **random set of variables is used**.
-
 :::caution Variables are not constants
 
 Variables are randomly selected for each test suite test execution. This means that you should not put things that should not change like login credentials or selectors in there.
 
 :::
 
-## What happens if you mistype a variable name
+## What happens if you mistype a variable name?
 
-It just won't get replaced. In your test the literal text like `{{FIRST_NAME}}` appears. So when you see this you will know that there is a typo.
+It just won't get replaced. In your test the literal text like `{{FIRSST_NAME}}` appears. So when you see this you will know that there is a typo.
+
+## Variable types
+
+The following variable types are available in LCT:
+
+1. Constants
+    - Assigns a value at the start of test execution, before the first Case.
+    - The value cannot be changed, attempting to do this results in an error.
+    - Use constants to centrally define recurring values like usernames, selectors etc.
+2. Dynamic Case Variable
+    - Assigns a value at the start of each Case. If you don't specify a value for a Case, the start value will be empty.
+    - The value can be changed using the _storeTextInVar_ step.
+    - You can reference _Constants_ in Dynamic Case Variables.
+3. Dynamic Worksheet Variables
+    - Assigns a value at the start of test execution, before the first Case.
+    - The value can be changed using the _storeTextInVar_ step.
+4. Set Variable
+    - Assigns a value at the start of test execution, before the first Case.
+    - Set Variables are special _Constants_ that can be used in _Variable Sets_.
+    - Use Set Variables to represent different input values, for example in forms.
+
+## Allowed variable names
+
+We allow lowercase characters (`a-z`), numbers (`0-9`), underscore `_` and minus `-` in variable names.
+The following JavaScript keywords are excluded:
+
+-   `await`
+-   `boolean`
+-   `break`
+-   `byte`
+-   `case`
+-   `catch`
+-   `char`
+-   `class`
+-   `const`
+-   `continue`
+-   `delete`
+-   `debugger`
+-   `else`
+-   `if`
+-   `eval`
+-   `export`
+-   `false`
+-   `true`
+-   `finally`
+-   `for`
+-   `new`
+-   `let`
+-   `null`
+-   `package`
+-   `private`
+-   `public`
+-   `import`
+-   `super`
+-   `switch`
+-   `static`
+-   `this`
+-   `try`
+-   `typeof`
+-   `var`
+-   `void`
+-   `while`
+-   `with`
+-   `yield`
+
+## What happens if you mistype a variable name?
+
+It just won't get replaced. In your test the literal text like `{{FIRSST_NAME}}` appears. So when you see this you will know that there is a typo.
