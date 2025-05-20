@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "LCT Documentation",
   tagline: "Making Testing APEX easy",
-  url: "https://docs.lct.software",
+  url: "https://docs.lct.software/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -71,7 +71,7 @@ const config = {
           // },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://lct.software",
+            href: "https://lct.software/",
             label: "LCT Website",
             position: "right",
           },
@@ -84,12 +84,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Twitter",
-                href: "https://twitter.com/LowCodeTesting",
+                label: "X (Twitter)",
+                href: "https://x.com/LowCodeTesting",
               },
               {
                 label: "YouTube",
-                href: "https://www.youtube.com/channel/UCWj_laDAKjgRaw4SjEdVyIA",
+                href: "https://www.youtube.com/@lct-apex",
               },
             ],
           },
@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: "Homepage",
-                href: "https://lct.software",
+                href: "https://lct.software/",
               },
               {
                 label: "Blog",
@@ -107,20 +107,20 @@ const config = {
             ],
           },
           {
-            title: "LCT by MT",
+            title: "LCT by Hyand",
             items: [
               {
-                label: "MT Website",
-                href: "https://www.mt-itsolutions.com/",
+                label: "Hyand Website",
+                href: "https://www.hyand.com/",
               },
               {
-                label: "MT APEX Page",
-                href: "https://apex.mt-itsolutions.com",
+                label: "Hyand APEX Page",
+                href: "https://apex.hyand.com/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MT. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hyand Solutions GmbH. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
