@@ -31,6 +31,6 @@ This can help to ensure that all needed page elements are available before conti
 
 > My variable `{{XXX}}` does not get replaced in execution.
 
-You most likely have a typo or forgot to add that variable. [More info](/features/variables#what-happens-if-you-mistype-a-variable-name)
-
-
+You most likely have a typo or forgot to add that variable.
+Double-check if the variable name on the _Variables_ page matches the reference in the step.
+[More info about Variables](./guides/using-lct/variables.mdx#what-happens-if-you-mistype-a-variable-name)
