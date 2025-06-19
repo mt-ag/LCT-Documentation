@@ -6,7 +6,7 @@ sidebar_position: 100
 
 ## Tag Management
 
-On this page, you can freely edit add, edit and delete Worksheet Tags.
+On this page, you can freely add, edit and delete Worksheet Tags.
 Optionally, you can provide descriptions to your tags.
 Both the name and the description will be visible in the _Edit Worksheet_ dialog.
 
