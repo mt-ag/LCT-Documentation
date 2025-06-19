@@ -8,7 +8,7 @@ A test case is a specific scenario designed to verify whether a particular aspec
 
 :::note
 
-Except for [BeforeEach- and AfterEach-Cases](./beforeeach-aftereach-cases.md), Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case. Each Test Case starts without any page loaded.
+Except for BeforeEach- and AfterEach-Cases, Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case. Each Test Case starts without any page loaded.
 
 ::: 
 
@@ -53,7 +53,7 @@ After selecting 'Empty Case', in the next dialog page several can and have to be
 1. A __name__ that idealy best describes the functionality this case will test. Although it is not mandatory to choose a unique Test Case name, it is recommended.
 2. The __type__ of the Test Case
      * __Standard__ (default)
-     * [BeforeEach/AfterEach](beforeeach-aftereach-cases.md)   
+     * BeforeEach/AfterEach   
      'Standard'-cases are Test Cases that are executed once in a Worksheet, one after the other.   
      BeforeEach/AfterEach-cases are either executed before or after each case in the current Worksheet. Test Steps that apply to all Test Cases, like steps to perform a login, can be idealy placed inside one of those types.
 3. A __description__. As for Worksheet descriptions, this is an optional field, that serves as a container for information about that Test Case. It is recommended to make use of it because it makes it easier for the whole testing team to know what is will be tested by that in case in more detail.
@@ -172,3 +172,12 @@ To create the case and all of the steps, click 'Finish'.
 After the dialog has closed, we see our newly created case with all the necessary Test Steps, including ones to navigate to the respective pages, to switch the test context to an iframe and the steps to interact with the form items:
 
 ![Case and steps created](./img/add_case_via_wizard_case_created.png)
+
+## About _Before Each_ and _After each_ cases {#about-before-after-each}
+
+A _Before each_ case is a collection of steps that will be performed before each individual test case.
+Usually, it is used to perform steps to login into the application, to open the page where all use cases start or to call an API for data preparation.
+Likewise, a _After each_ case is a collection of steps that will be performed after each individual test case.
+For example, you could use them for data cleanups or for assertions that should be checked for all test cases.
+Both special case types are not listed individually in test executions.
+Instead, steps are executed just before or after steps of normal cases.
