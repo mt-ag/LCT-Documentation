@@ -1,6 +1,6 @@
 {
     "label": "Testing Strategies",
-    "position": 2,
+    "position": 3,
     "link": {
         "type": "generated-index",
         "description": "This section includes recommendations for building robust and maintainable test cases as well as explanations how to test APEX components."

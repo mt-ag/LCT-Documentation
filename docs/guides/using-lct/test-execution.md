@@ -19,9 +19,9 @@ To execute a worksheet manually:
         - _Execute immediately_: If _Yes_, the worksheet will be run as soon as a test runner is available. If _No_, you can plan the execution for a specific date and time.
         - _Worksheet Variable Set_: You can choose a Variable Set for execution. Keep this setting empty to let LCT choose one randomly.
             - This setting will only be displayed if at least one Variable Set is defined in this worksheet.
-            - Read more about [Variables and Variable Sets](./variables.mdx).
+            - Read more about [Variables and Variable Sets](../advanced-concepts/variables.mdx).
     - _Execution Settings_
-        - Read more about available [execution settings](./execution-settings.md).
+        - Read more about available [execution settings](../advanced-concepts/execution-settings.md).
 4. Click on _Run_ to start the test.
     - If you choose not to execute the worksheet immediately, this button changes its text to _Schedule_.
 
