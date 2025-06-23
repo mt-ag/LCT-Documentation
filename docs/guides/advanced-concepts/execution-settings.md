@@ -1,6 +1,6 @@
 # Execution Settings
 
-In [Worksheets](./worksheets.md) and [Test Suites](./test-suites.md) different execution settings can be defined to control test runs.
+In [Worksheets](../using-lct/worksheets.md) and [Test Suites](../using-lct/test-suites.md) different execution settings can be defined to control test runs.
 
 ## List of execution settings
 
@@ -20,7 +20,7 @@ If a setting is defined on an upper level, it takes priority.
 
 1. _Run Test_ settings or Test Suite
 2. Worksheet settings
-3. Global settings (defined in [_Administration > Settings_](./administration.md#settings))
+3. Global settings (defined in [_Administration > Settings_](../using-lct/administration.md#settings))
 
 Additionally, timeouts can be overridden for individual steps using the _Timeout_ setting.
 When set, they will take priority over _Assertion Timeout_ for assertion steps, and _Action Timeout_ for all other steps where timeouts can be defined.
