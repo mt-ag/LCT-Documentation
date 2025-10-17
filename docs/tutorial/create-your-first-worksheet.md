@@ -78,7 +78,7 @@ After each dialog page, click on _Next_ to go to the next page.
 1.  Click on _+_ to add a new test case
     -   Note: If the Worksheet is empty, you can use the green _+_ button. Otherwise, the button next to the _Cases_ label is always available.
 2.  In the dialog, choose _Case via Template_
-3.  An wizard with multiple steps opens. Enter the following information in the following dialog pages. After adding all values within a page, click on _Next >_ to go to the next one (exception for step 1: _Create and add Steps >_) . Pay attention to the values which we have entered when exploring the application manually.
+3.  An wizard with multiple steps opens. Enter the following information in the following dialog pages. After adding all values within a page, click on _Next >_ to go to the next one (exception for step 1: _Create and add Steps >_). Pay attention to the values which we have entered when exploring the application manually.
     1.  Define Case
         -   Name: Basic Editing
     2.  Choose Template
