@@ -8,7 +8,7 @@ A test case is a specific scenario designed to verify whether a particular aspec
 
 :::note
 
-Except for BeforeEach- and AfterEach-Cases, Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case. Each Test Case starts without any page loaded.
+Except for _Before each_ and _After each_ Cases, Test Cases in LCT are __independent of one another__. This means that the execution of one Test Case does not influence the execution of another Test Case. Each Test Case starts without any page loaded.
 
 ::: 
 
@@ -17,8 +17,8 @@ Except for BeforeEach- and AfterEach-Cases, Test Cases in LCT are __independent 
 Test Cases can be created in numerous ways in LCT:
 * As an empty (meaning containing no Test Steps) Test Case of a specific type:
   * Standard
-  * BeforeEach
-  * AfterEach
+  * Before each
+  * After each
 * As a __copy__ of a Test Case in another worksheet
 * As a __duplicate__ of an existing Test Case in the current Worksheet
 * Via a __wizard__, using __templates__ to directly add Test Steps to it
@@ -53,9 +53,8 @@ After selecting 'Empty Case', in the next dialog page several can and have to be
 1. A __name__ that idealy best describes the functionality this case will test. Although it is not mandatory to choose a unique Test Case name, it is recommended.
 2. The __type__ of the Test Case
      * __Standard__ (default)
-     * BeforeEach/AfterEach   
-     'Standard'-cases are Test Cases that are executed once in a Worksheet, one after the other.   
-     BeforeEach/AfterEach-cases are either executed before or after each case in the current Worksheet. Test Steps that apply to all Test Cases, like steps to perform a login, can be idealy placed inside one of those types.
+     * Before each
+     * After each
 3. A __description__. As for Worksheet descriptions, this is an optional field, that serves as a container for information about that Test Case. It is recommended to make use of it because it makes it easier for the whole testing team to know what is will be tested by that in case in more detail.
 4. As with the description field, the __'Prerequisites'__-section also only has an informational character. It is recommended to insert information here that explain what the requirements are for the execution of the Test Case (testdata preparation endpoints exist, testuser exist etc.).
 
@@ -173,7 +172,7 @@ After the dialog has closed, we see our newly created case with all the necessar
 
 ![Case and steps created](./img/add_case_via_wizard_case_created.png)
 
-## About _Before Each_ and _After each_ cases {#about-before-after-each}
+## About _Before each_ and _After each_ cases {#about-before-after-each}
 
 A _Before each_ case is a collection of steps that will be performed before each individual test case.
 Usually, it is used to perform steps to login into the application, to open the page where all use cases start or to call an API for data preparation.
