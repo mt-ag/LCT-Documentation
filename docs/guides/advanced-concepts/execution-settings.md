@@ -23,4 +23,4 @@ If a setting is defined on an upper level, it takes priority.
 3. Global settings (defined in [_Administration > Settings_](../using-lct/administration.md#settings))
 
 Additionally, timeouts can be overridden for individual steps using the _Timeout_ setting.
-When set, they will take priority over _Assertion Timeout_ for assertion steps, and _Action Timeout_ for all other steps where timeouts can be defined.
+When set, they will take priority over _Assertion Timeout_ for assertion steps, _Maximum Navigation Time_ for browser navigations, and _Action Timeout_ for all other steps where timeouts can be defined.
