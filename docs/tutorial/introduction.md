@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Introduction
 
+This tutorial is intended for first-time users of LCT who want to learn about the most important features for a quick start.
+
 Knowledge about software testing strategies or Oracle APEX development can be useful but is not required.
 
 This tutorial is divided into three parts:
