@@ -83,6 +83,23 @@ While building and debugging worksheets, it can be useful to exclude specific st
 This can be accomplished by disabling them by using the _Enable/Disable_ option in the Actions menu or by setting the value in the _Enabled_ column to _No_.
 Changes to the state of steps must be saved using the _Save_ button of the steps table.
 
+## Copy steps to the current or other cases
+
+Open the Worksheet and test case which contain the steps you want to copy, then:
+
+1. In the steps table, select the steps by selecting the checkboxes in the first column.
+2. Click the _Copy_ dropdown on the table.
+3. Choose one of the following actions:
+    - _Duplicate_: Create a copy of the selected steps in the current test case.
+    - _Copy to..._: The copy dialog opens. Select the target Worksheet and case where you want to create a copy of the selected steps. Optionally you can give new names to the copied steps in the table below. Confirm by clicking the _Copy_ button.
+
+The following rules apply to the new steps when copying:
+
+-   The relative order of selected steps will be preserved, based on the execution sequence.
+-   Steps will be added below all existing steps, if any.
+-   Execution sequences will be multiples of 10, starting from the smallest value that is greater than the largest value of existing steps in the target case.
+    -   If no steps exist in the target case when copying, start with 10.
+
 ## Note about timeouts in complex steps
 
 LCT provides steps to handle APEX-specific components.
