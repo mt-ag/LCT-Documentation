@@ -24,7 +24,7 @@ Try one of the following solutions:
 -   If none of these solutions work, add a _waitForMilliseconds_ step.
     Please only use it as a last resort because over-using this step slows down test execution.
 
-Additionally, we recommend to use [Assertions](./guides/testing-strategies/testing-quality/add-assertions.md), especially after page navigations.
+Additionally, we recommend to use [Assertions](./guides/testing-strategies/testing-quality/assertions.md), especially after page navigations.
 This can help to ensure that all needed page elements are available before continuing to the next step.
 
 ## Variables

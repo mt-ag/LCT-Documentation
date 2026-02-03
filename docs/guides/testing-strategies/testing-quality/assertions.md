@@ -1,4 +1,4 @@
-# Add Assertions
+# Assertions
 
 We recommend adding a lot of assertions to your tests.
 Assertions can be used to verify that you are on the right page, that the page contains the right elements, and that the elements contain the right values.
