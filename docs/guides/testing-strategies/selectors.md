@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Selectors
 
 We usually try to generate the selectors for the elements you want to interact with based on the metadata that APEX saves about them in the database when creating said element. This is what happens in the background when you select "Page Element" or "Interactive Grid Column" as the selector type when adding a step.
