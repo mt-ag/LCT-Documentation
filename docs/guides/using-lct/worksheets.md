@@ -68,11 +68,11 @@ On the dialog page, some information can or must be given:
 3. **Application ID** _(required)_
    Choose the application that should be tested by that Worksheet. In that Popup LOV, all the applications where metadata view access is availlable to the LCT-Schema.
 
-    :::note
+:::note
 
-    Choosing an application here, does **not** mean that you can't navigate to or interact with other applications in this Worksheet. The application defined only serves as a starting point and is used for the step creation templates.
+Choosing an application here, does **not** mean that you can't navigate to or interact with other applications in this Worksheet. The application defined only serves as a starting point and is used for the step creation templates.
 
-    :::
+:::
 
 4. **Base URL** _(required)_
    The Base URL that all navigations depend upon in this worksheet. It is defined here so that this Worksheet can be easily exported into a different LCT instance in another environment, like another test environment where the application under test is also installed. In this case, only the base url has to be changed once instead of in every navigation step.
