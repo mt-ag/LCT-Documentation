@@ -83,7 +83,7 @@ Most modern browsers come with built-in developer tools that allow you to inspec
   2. In the Elements panel, right-click on the highlighted HTML code and choose "Copy Selector" or "Copy XPath".
   3. (Note: You may need to enable the Develop menu in Safari's preferences to access the Inspect Element option.)
 
-:::caution
+:::warning
 
 The good practices mentioned above still apply. A browser-generated selector might not be the most stable one. Always review and adjust the selectors as needed to ensure they are robust and maintainable.
 
