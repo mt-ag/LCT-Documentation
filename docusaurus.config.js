@@ -11,7 +11,11 @@ const config = {
   url: "https://docs.lct.software/",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn"
+    }
+  },
   favicon: "img/favicon.png",
 
   // GitHub pages deployment config.
